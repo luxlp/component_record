@@ -150,7 +150,7 @@ with second_column:
     st.download_button(
         label = 'Download data as CSV',
         data = csv,
-        file_name = f'{today_}_h16_component_tracker.csv',
+        file_name = f'{eastern_time_}_h16_component_tracker.csv',
         mime = 'text/csv'
     )
     
