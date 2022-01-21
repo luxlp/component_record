@@ -11,7 +11,7 @@ from github import InputGitTreeElement
 
 
 #Github url
-url = 'https://github.com/luxlp/component_record/blob/main/humboldt16_component_tracker.csv?raw=true'
+url = 'https://github.com/luxlp/component_record/blob/main/h16_component_tracker.csv?raw=true'
 t_url = 'https://github.com/luxlp/component_record/blob/main/in_door.csv?raw=true'
 #date
 def time_conversion():
