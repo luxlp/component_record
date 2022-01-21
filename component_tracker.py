@@ -54,7 +54,7 @@ unite = str(p_one + p_two + p_three)
 df2_ = df_.to_csv(sep=',', index=False)
 
 file_list = [df2_]
-file_name = ['component_tracker.csv']
+file_name = ['h16_component_tracker.csv']
 
 commit_message = 'test python'
 
@@ -66,7 +66,7 @@ git = Github(user, password)
 #connect to repo
 repo = git.get_user('luxlp').get_repo('component_record')
 #check file in repo
-x = repo.get_contents('component_tracker.csv')
+x = repo.get_contents('h16_component_tracker.csv')
 
 #getbranches
 x = repo.get_git_refs()
@@ -150,7 +150,7 @@ with second_column:
     st.download_button(
         label = 'Download data as CSV',
         data = csv,
-        file_name = f'{today_}_humboldt16_component_tracker.csv',
+        file_name = f'{today_}_h16_component_tracker.csv',
         mime = 'text/csv'
     )
     
