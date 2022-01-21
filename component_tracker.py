@@ -140,6 +140,8 @@ with first_column:
                 except:
                     pass
                 finally:
+                    df2_ = df_.to_csv(sep=',', index=False)
+                    file_list = [df2_]
                     updategitfile(file_name, file_list, user, password, 'componenet_record', 'heads/main') 
                     
     
