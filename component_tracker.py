@@ -142,7 +142,7 @@ with first_column:
                     
     
 with second_column:
-    st.write(df_)
+    st.write(df_.astype(str))
     def convert_df(df):
         return df.to_csv(index = False).encode('utf-8')
     
