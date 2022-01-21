@@ -10,12 +10,6 @@ from github import Github
 from github import InputGitTreeElement
 
 
-#get computer user
-computer_user = getuser()
-#dir
-data_dir = fr'C:\Users\luis.peguero\Desktop\Eng_\humboldt16_component_tracker_'
-#csv_file
-csv_file = f'{data_dir}./humboldt16_component_tracker.csv'
 #Github url
 url = 'https://github.com/luxlp/component_record/blob/main/humboldt16_component_tracker.csv?raw=true'
 t_url = 'https://github.com/luxlp/component_record/blob/main/in_door.csv?raw=true'
