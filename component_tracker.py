@@ -139,6 +139,8 @@ with first_column:
                     updategitfile(file_name, file_list, user, password, 'componenet_record', 'heads/main') 
                 except:
                     pass
+                finally:
+                    updategitfile(file_name, file_list, user, password, 'componenet_record', 'heads/main') 
                     
     
 with second_column:
