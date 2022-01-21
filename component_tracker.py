@@ -64,7 +64,7 @@ password = unite
 git = Github(user, password)
 
 #connect to repo
-repo = git.get_user('luxlp').get_repo('componenet_record')
+repo = git.get_user('luxlp').get_repo('component_record')
 #check file in repo
 x = repo.get_contents('component_tracker.csv')
 
