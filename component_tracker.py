@@ -31,7 +31,7 @@ st.set_page_config(
 
 #load the dataframe
 def load_df():
-    data = pd.read_csv(csv_file, on_bad_lines='skip')
+    data = pd.read_csv(url)
     df = pd.DataFrame(data)
     return df.astype(str)
 df_ = load_df()
